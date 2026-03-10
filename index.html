@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulateur immobilier — Baptiste &amp; Daphné Immobilier</title>
+    <meta name="description" content="Simulez le prix de votre bien et découvrez combien de ménages à Chambéry peuvent se permettre de l'acheter. Outil Baptiste &amp; Daphné Immobilier — IAD." />
+
+    <!-- Polices (déjà chargées sur votre site principal, utile ici en standalone) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body { background: #0f1a30; }
+
+      /* Sliders personnalisés */
+      input[type=range] {
+        -webkit-appearance: none;
+        appearance: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 4px;
+      }
+      input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #c9a96e;
+        border: 2px solid #162240;
+        cursor: pointer;
+      }
+      input[type=range]::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #c9a96e;
+        border: 2px solid #162240;
+        cursor: pointer;
+        border: none;
+      }
+
+      /* Responsive : sur mobile, grille en colonne */
+      @media (max-width: 860px) {
+        .sim-grid {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-66y2Gasr.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

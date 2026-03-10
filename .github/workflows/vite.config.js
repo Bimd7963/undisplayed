@@ -5,5 +5,5 @@ export default defineConfig({
   plugins: [react()],
   // Si vous souhaitez héberger dans un sous-dossier, ex: /simulateur/
   // décommentez la ligne ci-dessous et adaptez le chemin :
-  // base: '/simulateur/',
+  // base: '/undisplayed/',
 })
